@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.chrome-page{
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px;
+}
+.header-item.gmail-div {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #4285f4;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    margin-top: -3px;
+}
+
+.header-item {
+    margin-left: 1%;
+    font-size: 14px;
+}
+i.bx.bx-dialpad-alt {
+    color: #5F6368;
+    font-size: 24px;
+}
+.img-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+.search-div {
+    border-radius: 23px;
+    border: 1px solid #ccc;
+    width: 40%;
+    height: 46px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-parant-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input.search-input {
+    height: 100%;
+    width: 90%;
+    border: none;
+}
+i.bx.bx-search{
+    color: #9AA0A6;
+    font-size: 20px;
+    margin-top:3px;
+}
+i.bx.bxs-microphone {
+    font-size: 21px;
+    color: #4285f4;
+    margin-top:3px;
+}
+.bottom-footer-div {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #ccc;
+}
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.page-contant {
+    height: 400px;
+}
+footer{
+    background-color: #F2F2F2;
+    padding: 16px;
+    color: #70757A;
+    font-size: 15px;
+}
+li {
+    margin-right: 20px;
+    margin-top: 8px;
+}
+.palestine{
+    margin-bottom:8px;
+}
+.btn-light {
+    color: #212529;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+    font-weight: 400;
+    text-align: center;
+    padding: .375rem .75rem;
+    font-size: 15px;
+    line-height: 1.5;
+    border: none;
+    margin-right: 5px;
+}
+.btn-light:hover {
+    cursor: pointer;
+    border: 1px solid #ccc;
+}
